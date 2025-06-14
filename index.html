@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GRAND THEFT AUTO</title>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+
+		<link rel="stylesheet" href="styles/fontes.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/responsividade.css">
+	</head>
+	<body>
+		<header class="cabecalho">
+			<div class="logo">
+				<img src="assets/logo-rockstar.svg" alt="Logo Rockstar Games" />
+				<hr />
+				<img src="assets/logo-gta.svg" alt="Logo GTA V" />
+			</div>
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#comprar">Comprar</a>
+					</li>
+					<li>
+						<a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="assets/icone-link.svg" alt="Icone de link de suporte" /></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="home" id="home">
+			<img class="imagem-fundo" src="assets/bg-main.png" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo" />
+
+			<div class="informacoes">
+				<div class="lista-de-jogos">
+					<img src="assets/logo-gta-v.svg" alt="Logo GTA V" />
+					<img src="assets/logo-gta-online.svg" alt="Logo GTA Online" />
+				</div>
+				<h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
+				<p class="texto">Experimente os fênomenos de entretenimento Grand Theft Auto V e GTA Online</p>
+
+				<a class="btn-comprar" href="#comprar">Compre já</a>
+			</div>
+		</main>
+		<section class="compre-ja" id="comprar">
+			<h2 class="titulo">Compre já</h2>
+			<div class="cartao">
+				<img class="capa-do-jogo" src="assets/gta5.jpg" alt="Capa do jogo GTA V" />
+
+				<div class="informacoes">
+					<h3>Grand Theft Auto V</h3>
+					<p>
+						Inclui <strong>modo história do GTA V</strong> e
+						<strong>GTA Online</strong>
+					</p>
+					<ul class="plataformas">
+						<li>
+							<img src="assets/logo-ps5.svg" alt="Logo Playstation 5" />
+						</li>
+						<li>
+							<img src="assets/logo-xbox-series-s.svg" alt="Logo Xbox series X|S" />
+						</li>
+						<li>
+							<img src="assets/logo-ps4.svg" alt="Logo Playstation 4" />
+						</li>
+						<li>
+							<img src="assets/logo-xbox-one.svg" alt="Logo Xbox One" />
+						</li>
+						<li>
+							<img src="assets/logo-pc.svg" alt="Logo PC" />
+						</li>
+					</ul>
+				</div>
+				<button class="btn-plataforma" id="mostrar-formulario">Comprar</button>
+				<form class="formulario-compra" id="formulario-compra">
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" required placeholder="Digite seu nome" aria-label="Digite seu nome completo" />
+
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" required placeholder="Digite seu e-mail" aria-label="Digite seu e-mail completo"/>
+
+					<label for="email">CPF:</label>
+					<input type="text" id="cpf" name="cpf" required placeholder="Digite seu CPF" aria-label="Digite seu CPF completo" />
+
+					<label for="email">Telefone:</label>
+					<input type="text" id="telefone" name="telefone" required placeholder="Digite seu Telefone" aria-label="Digite seu Telefone completo"/>
+
+					<label for="plataforma">Plataforma:</label>
+					<select id="plataforma" name="plataforma" required>
+						<option value="">Selecione</option>
+						<option value="ps5">PlayStation 5</option>
+						<option value="xbox-series">Xbox Series X|S</option>
+						<option value="ps4">PlayStation 4</option>
+						<option value="xbox-one">Xbox One</option>
+						<option value="pc">PC</option>
+					</select>
+					<button type="submit" class="btn-enviar">Finalizar Compra</button>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div>
+				Todos os direitos reservados </strong>
+			</div>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>
