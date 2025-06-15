@@ -75,4 +75,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 * [Wikipedia - Grand Theft Auto](https://pt.wikipedia.org/wiki/Grand_Theft_Auto)
 * [Rockstar Games](https://www.rockstargames.com/)
 
-```
